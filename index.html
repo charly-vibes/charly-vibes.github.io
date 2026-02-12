@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Charly Vibes</title>
+    <style>
+        :root {
+            --bg: #82B1FF;
+            --fg: #2D1B14;
+            --accent: #E91E63;
+            --muted: #6b5d58;
+            --highlight: #FFC107;
+            --card-bg: #F5F5F5;
+            --max-width: 50rem;
+            --border-radius: 8px;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #2C2A4A;
+                --fg: #EAE1DF;
+                --accent: #FF007F;
+                --muted: #B392AC;
+                --card-bg: #1e1c32;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--fg);
+            line-height: 1.7;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        header.site-header {
+            margin-bottom: 3rem;
+        }
+
+        header.site-header h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .intro {
+            background: var(--card-bg);
+            border-radius: var(--border-radius);
+            padding: 2rem;
+            margin-bottom: 3rem;
+            box-shadow: var(--shadow);
+            font-size: 1.05rem;
+        }
+
+        .intro p {
+            margin-bottom: 1rem;
+        }
+
+        .intro p:last-child {
+            margin-bottom: 0;
+        }
+
+        .section-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: var(--muted);
+        }
+
+        .projects {
+            list-style: none;
+            display: grid;
+            gap: 1.5rem;
+        }
+
+        .project-card {
+            background: var(--card-bg);
+            border-radius: var(--border-radius);
+            padding: 1.5rem 2rem;
+            box-shadow: var(--shadow);
+        }
+
+        .project-card h3 {
+            margin-bottom: 0.25rem;
+        }
+
+        .project-card h3 a {
+            color: var(--fg);
+            font-size: 1.15rem;
+        }
+
+        .project-card .meta {
+            font-size: 0.8rem;
+            color: var(--muted);
+            margin-bottom: 0.75rem;
+        }
+
+        .project-card p {
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+
+        .tag {
+            display: inline-block;
+            font-size: 0.7rem;
+            background: var(--bg);
+            color: var(--muted);
+            padding: 0.15em 0.5em;
+            border-radius: 4px;
+            margin-right: 0.25rem;
+            font-weight: 500;
+        }
+
+        footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--muted);
+            color: var(--muted);
+            font-size: 0.9rem;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            header.site-header h1 {
+                font-size: 1.5rem;
+            }
+            .intro, .project-card {
+                padding: 1.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="site-header">
+            <h1>charly vibes</h1>
+        </header>
+
+        <section class="intro">
+            <p>Esto no es una persona. Es un campo de pruebas, una zona de desastre controlada. Un intento de registrar el pulso de una nueva forma de delirio: el código asistido por una inteligencia que no es ni inteligente ni artificial, sino algo intermedio y mucho m&aacute;s extra&ntilde;o.</p>
+            <p>Cada l&iacute;nea aqu&iacute; es producto de un di&aacute;logo febril, una conversaci&oacute;n con un or&aacute;culo que cobra por palabra. El trabajo ya no se mide en horas-silla, sino en tokens quemados, en un contador que avanza como un tax&iacute;metro hacia la bancarrota existencial. Uno paga por pensar, o por hacer que algo piense por uno. La diferencia es cada vez m&aacute;s borrosa.</p>
+            <p>El objetivo, si es que hay uno, es descular qu&eacute; forma tomar&aacute; este oficio. Mientras haya plata para los tokens, se sigue trabajando. Cuando se acabe, habr&aacute; que ver qu&eacute; otro delirio inventamos.</p>
+        </section>
+
+        <h2 class="section-title">Exploraciones</h2>
+        <ul class="projects">
+            <li class="project-card">
+                <h3><a href="https://charly-vibes.github.io/microdancing/">microdancing</a></h3>
+                <div class="meta"><span class="tag">blog</span> <span class="tag">pandoc</span> <span class="tag">es/en</span></div>
+                <p>Microposts. Apuntes al margen. Cr&oacute;nicas de lo m&iacute;nimo, ideas fugaces atrapadas antes de que se disuelvan. Ah&iacute; vive el manifiesto del <a href="https://charly-vibes.github.io/microdancing/es/posts/resonant-coding.html">Resonant Coding</a> y su <a href="https://charly-vibes.github.io/microdancing/es/posts/resonant-coding-guia.html">gu&iacute;a pr&aacute;ctica</a>.</p>
+            </li>
+            <li class="project-card">
+                <h3><a href="https://github.com/charly-vibes/nayra">nayra</a></h3>
+                <div class="meta"><span class="tag">javascript</span> <span class="tag">canvas</span> <span class="tag">bigint</span></div>
+                <p>Visualizaci&oacute;n de l&iacute;neas de tiempo para el tiempo profundo. 10.000+ eventos a 60 FPS, desde microsegundos hasta miles de millones de a&ntilde;os. Un intento de domesticar el caos con desarrollo guiado por especificaciones. Una jaula de oro para la creatividad.</p>
+            </li>
+            <li class="project-card">
+                <h3><a href="https://charly-vibes.github.io/jams/">jams</a></h3>
+                <div class="meta"><span class="tag">javascript</span> <span class="tag">vanilla</span> <span class="tag">gh-pages</span></div>
+                <p>Peque&ntilde;as aplicaciones, fuegos de un d&iacute;a, para entender herramientas y modos de hacer directos, casi brutales. Cada app es una p&aacute;gina, sin frameworks, sin ceremonias.</p>
+            </li>
+            <li class="project-card">
+                <h3><a href="https://github.com/charly-vibes/fabbro">fabbro</a></h3>
+                <div class="meta"><span class="tag">go</span> <span class="tag">tui</span> <span class="tag">code review</span></div>
+                <p>Una herramienta de orfebre digital. Un martillo y cincel para la l&iacute;nea de comandos, para revisar y comentar lo que nos vomitan los modelos de lenguaje. Anotaciones estructuradas sobre c&oacute;digo, local-first, sin servidores.</p>
+            </li>
+            <li class="project-card">
+                <h3><a href="https://github.com/charly-vibes/wai">wai</a></h3>
+                <div class="meta"><span class="tag">rust</span> <span class="tag">cli</span> <span class="tag">workflow</span></div>
+                <p>Gestor de flujos de trabajo para desarrollo asistido por IA. Organiza los artefactos de un proyecto &mdash;investigaci&oacute;n, planes, dise&ntilde;os&mdash; capturando el <em>por qu&eacute;</em> detr&aacute;s de cada decisi&oacute;n. El cuaderno de bit&aacute;cora que la m&aacute;quina necesita para no perderse.</p>
+            </li>
+            <li class="project-card">
+                <h3><a href="https://github.com/charly-vibes/incitaciones">incitaciones</a></h3>
+                <div class="meta"><span class="tag">prompts</span> <span class="tag">skills</span> <span class="tag">multi-tool</span></div>
+                <p>Colecci&oacute;n de prompts reutilizables y buenas pr&aacute;cticas para herramientas CLI de LLMs. Se distribuyen como skills para Claude Code, Amp, Gemini CLI, Cursor, Windsurf y Zed. Recetas destiladas del delirio cotidiano.</p>
+            </li>
+            <li class="project-card">
+                <h3><a href="https://github.com/charly-vibes/rizomas">rizomas</a></h3>
+                <div class="meta"><span class="tag">explicaciones</span> <span class="tag">experimental</span></div>
+                <p>Explicaciones rizom&aacute;ticas. Un experimento en gestaci&oacute;n, una ra&iacute;z que busca tierra donde crecer. Todav&iacute;a no se sabe qu&eacute; forma va a tomar, y eso est&aacute; bien.</p>
+            </li>
+        </ul>
+
+        <footer>
+            <p>CC0 &middot; Todo es parte de la misma pesquisa.</p>
+        </footer>
+    </div>
+</body>
+</html>

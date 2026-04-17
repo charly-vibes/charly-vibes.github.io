@@ -9,11 +9,12 @@ Charly Vibes explores what software development looks like when the machine writ
 - [microdancing](https://charly-vibes.github.io/microdancing/llms.txt): Blog of microposts and minimal chronicles. Home of the Resonant Coding manifesto.
 - [nayra](https://charly-vibes.github.io/nayra/llms.txt): Deep-time timeline visualization. 10,000+ events at 60 FPS, microseconds to billions of years.
 - [jams](https://charly-vibes.github.io/jams/llms.txt): Small apps, one-day experiments, for understanding tools directly and almost brutally.
-- [fabbro](https://charly-vibes.github.io/fabbro/llms.txt): CLI for reviewing and annotating LLM-generated code. Structured annotations, local-first.
-- [wai](https://charly-vibes.github.io/wai/llms.txt): Workflow manager for AI-assisted development. Organizes research, plans, and design decisions.
+- [fabbro](https://charly-vibes.github.io/fabbro/): CLI for reviewing and annotating LLM-generated code. Structured annotations, local-first.
+- [wai](https://charly-vibes.github.io/wai/): Workflow manager for AI-assisted development. Organizes research, plans, and design decisions.
 - [fotos](https://charly-vibes.github.io/fotos/llms.txt): Screenshot tool with OCR, PII detection, and MCP server for code agent integration.
 - [incitaciones](https://charly-vibes.github.io/incitaciones/llms.txt): Reusable prompts and skills for CLI LLM tools (Claude Code, Amp, Gemini CLI, Cursor).
 - [rizomas](https://charly-vibes.github.io/rizomas/llms.txt): Rhizomatic interactive essays on how LLMs work.
+- [canticos](https://charly-vibes.github.io/canticos/): Personal-use scripts: video conversion for projectors, whisper transcription, Claude Code dashboard.
 - [bichos](https://github.com/charly-vibes/bichos): Biomimetic framework for autonomous QA — swarms of specialized agents coordinated by stigmergy. Proposal stage.
 
 ## Authorship

@@ -14,4 +14,4 @@ The LLM writes. The human knows what it should say.
 
 There is a distinction, even if looking at the commit history makes it hard to find. The distinction is that a machine can produce correct code without understanding anything, the same way a calculator can solve an integral without knowing what time is. Understanding what that integral is *for*, whether it actually solves the problem, whether the problem was the right problem to begin with — that remains human territory. For now.
 
-*[Leer en español](https://charly-vibes.github.io/charly-vibes/)*
+*[Leer en español](https://github.com/charly-vibes/charly-vibes)*

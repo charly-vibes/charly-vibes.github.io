@@ -18,10 +18,11 @@ Charly Vibes explores what software development looks like when the machine writ
 - [bichos](https://github.com/charly-vibes/bichos): Biomimetic framework for autonomous QA — swarms of specialized agents coordinated by stigmergy.
 - [atril](https://charly-vibes.github.io/atril/): Web viewers for the wai ecosystem. Comfortable reading of specs and issues.
 - [dont](https://charly-vibes.github.io/dont/): CLI that forces autonomous agents to ground claims before asserting them. Grounding first, then the verb.
+- [espectacular](https://github.com/charly-vibes/espectacular): Behavioral verification layer for the charly AI development ecosystem.
+- [testaruda](https://github.com/charly-vibes/testaruda): Language-agnostic test selection engine. Given a code change, computes the affected test set via provenance-semiring dependency analysis.
 - [paranoid](https://charly-vibes.github.io/paranoid/): Android app hosting many small native Kotlin mini-apps.
 - [ruta](https://github.com/charly-vibes/ruta): pi package for a disciplined seven-day spec-immersion workflow.
 - [khipu](https://github.com/charly-vibes/khipu): Agent trace forensics and workflow crystallization.
-- [espectacular](https://github.com/charly-vibes/espectacular): Behavioral verification layer for the charly AI development ecosystem.
 - [miblioteca](https://github.com/charly-vibes/miblioteca): Bookshelf Spine Capture. TypeScript PWA for cataloging books from spine photos.
 - [superficies](https://github.com/charly-vibes/superficies): Design catalog for exploring orthogonal web-design dimensions via live preview.
 - [tRAGar](https://github.com/charly-vibes/tRAGar): Client-side Retrieval-Augmented Generation in the browser using transformers.js.

@@ -104,6 +104,15 @@
             margin-bottom: 1.5rem;
         }
 
+        .subgroup-title {
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--muted);
+            margin-bottom: 1rem;
+        }
+
         .projects {
             list-style: none;
             display: grid;
@@ -191,7 +200,7 @@
         <h2 class="section-title">Exploraciones</h2>
 
         <h3 class="group-title">El ecosistema</h3>
-        <p class="group-desc">Un rompecabezas de herramientas que se arman entre sí: capturar el contexto, verificar el comportamiento, seleccionar los tests, auditar el rastro. Cada pieza resuelve una grieta distinta del desarrollo asistido por IA.</p>
+        <p class="group-desc">Los CLIs que sostienen todo: capturar el contexto, verificar el comportamiento, seleccionar los tests, analizar el código. Casi todos en Rust, más un orfebre en Go.</p>
         <ul class="projects">
             <li class="project-card">
                 <h3><a href="https://charly-vibes.github.io/wai/">wai</a> <a class="repo-link" href="https://github.com/charly-vibes/wai">repo</a></h3>
@@ -199,24 +208,9 @@
                 <p>Gestor de flujos de trabajo para desarrollo asistido por IA. Organiza los artefactos de un proyecto &mdash;investigaci&oacute;n, planes, dise&ntilde;os&mdash; capturando el <em>por qu&eacute;</em> detr&aacute;s de cada decisi&oacute;n. El cuaderno de bit&aacute;cora que la m&aacute;quina necesita para no perderse.</p>
             </li>
             <li class="project-card">
-                <h3><a href="https://charly-vibes.github.io/atril/">atril</a> <a class="repo-link" href="https://github.com/charly-vibes/atril">repo</a></h3>
-                <div class="meta"><span class="tag">web</span> <span class="tag">wai</span> <span class="tag">spec viewer</span></div>
-                <p>Atril para el ecosistema wai. Visores web para leer specs e issues sin fricción, con foco en exploración cómoda desde tablet o navegador.</p>
-            </li>
-            <li class="project-card">
-                <h3><a href="https://github.com/charly-vibes/ruta">ruta</a> <a class="repo-link" href="https://github.com/charly-vibes/ruta">repo</a></h3>
-                <div class="meta"><span class="tag">pi</span> <span class="tag">package</span> <span class="tag">spec immersion</span></div>
-                <p>Un paquete para pi que lo vuelve un arn&eacute;s opinado para una semana de inmersi&oacute;n en especificaciones. Disciplina para no perderse en el entusiasmo de la m&aacute;quina.</p>
-            </li>
-            <li class="project-card">
                 <h3><a href="https://charly-vibes.github.io/fabbro/">fabbro</a> <a class="repo-link" href="https://github.com/charly-vibes/fabbro">repo</a></h3>
                 <div class="meta"><span class="tag">go</span> <span class="tag">tui</span> <span class="tag">code review</span></div>
                 <p>Una herramienta de orfebre digital. Un martillo y cincel para la l&iacute;nea de comandos, para revisar y comentar lo que nos vomitan los modelos de lenguaje. Anotaciones estructuradas sobre c&oacute;digo, local-first, sin servidores.</p>
-            </li>
-            <li class="project-card">
-                <h3><a href="https://charly-vibes.github.io/fotos/">fotos</a> <a class="repo-link" href="https://github.com/charly-vibes/fotos">repo</a></h3>
-                <div class="meta"><span class="tag">rust</span> <span class="tag">tauri</span> <span class="tag">screenshot</span> <span class="tag">mcp</span></div>
-                <p>Captura de pantalla con inteligencia artificial. Anotaciones visuales, an&aacute;lisis OCR, detecci&oacute;n de PII y un servidor MCP para integraci&oacute;n con agentes de c&oacute;digo. El ojo que le faltaba al flujo de trabajo.</p>
             </li>
             <li class="project-card">
                 <h3><a href="https://charly-vibes.github.io/dont/">dont</a> <a class="repo-link" href="https://github.com/charly-vibes/dont">repo</a></h3>
@@ -237,16 +231,6 @@
                 <h3><a href="https://github.com/charly-vibes/pretender">pretender</a> <a class="repo-link" href="https://github.com/charly-vibes/pretender">repo</a></h3>
                 <div class="meta"><span class="tag">rust</span> <span class="tag">tree-sitter</span> <span class="tag">sarif</span> <span class="tag">analysis</span></div>
                 <p>Herramienta de análisis de código basada en tree-sitter que genera reportes SARIF. Una pieza más del rompecabezas de calidad de código asistida.</p>
-            </li>
-            <li class="project-card">
-                <h3><a href="https://github.com/charly-vibes/bichos">bichos</a> <a class="repo-link" href="https://github.com/charly-vibes/bichos">repo</a></h3>
-                <div class="meta"><span class="tag">python</span> <span class="tag">swarm</span> <span class="tag">qa</span></div>
-                <p>Framework bio-mimético para control de calidad autónomo. Enjambres de agentes especializados &mdash;hormigas, abejas, termitas, avispas&mdash; que coordinan por estigmergía para detectar bugs, analizar arquitectura y auditar seguridad.</p>
-            </li>
-            <li class="project-card">
-                <h3><a href="https://github.com/charly-vibes/khipu">khipu</a> <a class="repo-link" href="https://github.com/charly-vibes/khipu">repo</a></h3>
-                <div class="meta"><span class="tag">python</span> <span class="tag">traces</span> <span class="tag">workflow</span></div>
-                <p>Forensia de trazas de agentes y cristalizaci&oacute;n de flujos de trabajo. Una herramienta para desenredar hilos y encontrar patrones en el ruido.</p>
             </li>
         </ul>
         <h3 class="group-title">La palabra</h3>
@@ -275,7 +259,13 @@
         </ul>
         <h3 class="group-title">El laboratorio</h3>
         <p class="group-desc">Experimentos sin plan maestro. Fuegos de un día, prototipos y juguetes que quizás algún día encuentren su lugar. O no, y también está bien.</p>
+        <h4 class="subgroup-title">Aplicaciones web</h4>
         <ul class="projects">
+            <li class="project-card">
+                <h3><a href="https://charly-vibes.github.io/atril/">atril</a> <a class="repo-link" href="https://github.com/charly-vibes/atril">repo</a></h3>
+                <div class="meta"><span class="tag">web</span> <span class="tag">wai</span> <span class="tag">spec viewer</span></div>
+                <p>Atril para el ecosistema wai. Visores web para leer specs e issues sin fricción, con foco en exploración cómoda desde tablet o navegador.</p>
+            </li>
             <li class="project-card">
                 <h3><a href="https://charly-vibes.github.io/jams/">jams</a> <a class="repo-link" href="https://github.com/charly-vibes/jams">repo</a></h3>
                 <div class="meta"><span class="tag">javascript</span> <span class="tag">vanilla</span> <span class="tag">gh-pages</span></div>
@@ -301,10 +291,53 @@
                 <div class="meta"><span class="tag">typescript</span> <span class="tag">pwa</span> <span class="tag">books</span></div>
                 <p>Captura de lomos de bibliotecas. Una PWA en TypeScript para catalogar libros a partir de fotos de sus lomos.</p>
             </li>
+        </ul>
+        <h4 class="subgroup-title">Mobile</h4>
+        <ul class="projects">
             <li class="project-card">
                 <h3><a href="https://charly-vibes.github.io/paranoid/">paranoid</a> <a class="repo-link" href="https://github.com/charly-vibes/paranoid">repo</a></h3>
                 <div class="meta"><span class="tag">android</span> <span class="tag">kotlin</span> <span class="tag">mini-apps</span></div>
                 <p>Una app Android que aloja muchas apps peque&ntilde;as. Cada mini-app vive como una Activity nativa en Kotlin, con dependencias m&iacute;nimas y bajo consumo de recursos.</p>
+            </li>
+        </ul>
+        <h4 class="subgroup-title">Desktop</h4>
+        <ul class="projects">
+            <li class="project-card">
+                <h3><a href="https://charly-vibes.github.io/fotos/">fotos</a> <a class="repo-link" href="https://github.com/charly-vibes/fotos">repo</a></h3>
+                <div class="meta"><span class="tag">rust</span> <span class="tag">tauri</span> <span class="tag">screenshot</span> <span class="tag">mcp</span></div>
+                <p>Captura de pantalla con inteligencia artificial. Anotaciones visuales, an&aacute;lisis OCR, detecci&oacute;n de PII y un servidor MCP para integraci&oacute;n con agentes de c&oacute;digo. El ojo que le faltaba al flujo de trabajo.</p>
+            </li>
+        </ul>
+        <h4 class="subgroup-title">Otros experimentos</h4>
+        <ul class="projects">
+            <li class="project-card">
+                <h3><a href="https://github.com/charly-vibes/bichos">bichos</a> <a class="repo-link" href="https://github.com/charly-vibes/bichos">repo</a></h3>
+                <div class="meta"><span class="tag">python</span> <span class="tag">swarm</span> <span class="tag">qa</span></div>
+                <p>Framework bio-mimético para control de calidad autónomo. Enjambres de agentes especializados &mdash;hormigas, abejas, termitas, avispas&mdash; que coordinan por estigmergía para detectar bugs, analizar arquitectura y auditar seguridad.</p>
+            </li>
+            <li class="project-card">
+                <h3><a href="https://github.com/charly-vibes/khipu">khipu</a> <a class="repo-link" href="https://github.com/charly-vibes/khipu">repo</a></h3>
+                <div class="meta"><span class="tag">python</span> <span class="tag">traces</span> <span class="tag">workflow</span></div>
+                <p>Forensia de trazas de agentes y cristalizaci&oacute;n de flujos de trabajo. Una herramienta para desenredar hilos y encontrar patrones en el ruido.</p>
+            </li>
+            <li class="project-card">
+                <h3><a href="https://github.com/charly-vibes/ruta">ruta</a> <a class="repo-link" href="https://github.com/charly-vibes/ruta">repo</a></h3>
+                <div class="meta"><span class="tag">pi</span> <span class="tag">package</span> <span class="tag">spec immersion</span></div>
+                <p>Un paquete para pi que lo vuelve un arn&eacute;s opinado para una semana de inmersi&oacute;n en especificaciones. Disciplina para no perderse en el entusiasmo de la m&aacute;quina.</p>
+            </li>
+        </ul>
+        <h3 class="group-title">Distribución</h3>
+        <p class="group-desc">Repositorios de paquetes para instalar las herramientas sin pelear con el toolchain: el tap de Homebrew y el bucket de Scoop.</p>
+        <ul class="projects">
+            <li class="project-card">
+                <h3><a href="https://github.com/charly-vibes/homebrew-charly">homebrew-charly</a> <a class="repo-link" href="https://github.com/charly-vibes/homebrew-charly">repo</a></h3>
+                <div class="meta"><span class="tag">homebrew</span> <span class="tag">ruby</span> <span class="tag">packaging</span></div>
+                <p>Tap de Homebrew para las herramientas de charly-vibes. Un <code>brew tap</code> y a trabajar.</p>
+            </li>
+            <li class="project-card">
+                <h3><a href="https://github.com/charly-vibes/scoop-charly">scoop-charly</a> <a class="repo-link" href="https://github.com/charly-vibes/scoop-charly">repo</a></h3>
+                <div class="meta"><span class="tag">scoop</span> <span class="tag">json</span> <span class="tag">packaging</span></div>
+                <p>Bucket de Scoop para las herramientas de charly-vibes. Instalación directa en Windows.</p>
             </li>
         </ul>
 

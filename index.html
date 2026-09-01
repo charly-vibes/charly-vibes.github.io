@@ -200,7 +200,7 @@
         <h2 class="section-title">Exploraciones</h2>
 
         <h3 class="group-title">El ecosistema</h3>
-        <p class="group-desc">Los CLIs que sostienen todo: capturar el contexto, verificar el comportamiento, seleccionar los tests, analizar el código. Casi todos en Rust, más un orfebre en Go.</p>
+        <p class="group-desc">Los CLIs y la infraestructura compartida que sostienen todo: capturar el contexto, verificar el comportamiento, seleccionar los tests, analizar el c&oacute;digo. Casi todos en Rust, m&aacute;s un orfebre en Go.</p>
         <ul class="projects">
             <li class="project-card">
                 <h3><a href="https://charly-vibes.github.io/wai/">wai</a> <a class="repo-link" href="https://github.com/charly-vibes/wai">repo</a></h3>
@@ -232,9 +232,34 @@
                 <div class="meta"><span class="tag">rust</span> <span class="tag">tree-sitter</span> <span class="tag">sarif</span> <span class="tag">analysis</span></div>
                 <p>Herramienta de análisis de código basada en tree-sitter que genera reportes SARIF. Una pieza más del rompecabezas de calidad de código asistida.</p>
             </li>
+            <li class="project-card">
+                <h3><a href="https://github.com/charly-vibes/vampiro">vampiro</a> <a class="repo-link" href="https://github.com/charly-vibes/vampiro">repo</a></h3>
+                <div class="meta"><span class="tag">rust</span> <span class="tag">composition</span> <span class="tag">boundaries</span></div>
+                <p>CLI en Rust que verifica si el c&oacute;digo compone correctamente a trav&eacute;s de l&iacute;mites de llamada, m&oacute;dulo, efecto, ley, retry, recurso y confianza. En cada borde: &iquest;este edge compone v&aacute;lidamente en la categor&iacute;a que dice componer?</p>
+            </li>
+            <li class="project-card">
+                <h3><a href="https://github.com/charly-vibes/crua">crua</a> <a class="repo-link" href="https://github.com/charly-vibes/crua">repo</a></h3>
+                <div class="meta"><span class="tag">rust</span> <span class="tag">performance</span> <span class="tag">spec-first</span></div>
+                <p>CLI en Rust, en etapa de especificaci&oacute;n, que verifica si el c&oacute;digo respeta el modelo de costo del hardware y runtime donde se ejecuta: layout de cache lines, estabilidad de tipos, modelos de concurrencia, contenci&oacute;n de locks.</p>
+            </li>
+            <li class="project-card">
+                <h3><a href="https://github.com/charly-vibes/livin">livin</a> <a class="repo-link" href="https://github.com/charly-vibes/livin">repo</a></h3>
+                <div class="meta"><span class="tag">rust</span> <span class="tag">testing</span> <span class="tag">spec-first</span></div>
+                <p>CLI en Rust, en etapa de especificaci&oacute;n, que comprueba si una suite de tests realmente ejercita los valores borde que la forma del propio c&oacute;digo implica: cero, vac&iacute;o, singleton, duplicado, overflow, cada rama de un sum type.</p>
+            </li>
+            <li class="project-card">
+                <h3><a href="https://charly-vibes.github.io/genesis/">genesis</a> <a class="repo-link" href="https://github.com/charly-vibes/genesis">repo</a></h3>
+                <div class="meta"><span class="tag">rust</span> <span class="tag">crate</span> <span class="tag">shared infra</span></div>
+                <p>Crate de Rust compartida con la infraestructura transversal del suite: sobres de JSON, CLI, self-healing. El fundamento com&uacute;n que el rompecabezas necesitaba.</p>
+            </li>
+            <li class="project-card">
+                <h3><a href="https://github.com/charly-vibes/dulce-de-leche">dulce-de-leche</a> <a class="repo-link" href="https://github.com/charly-vibes/dulce-de-leche">repo</a></h3>
+                <div class="meta"><span class="tag">rust</span> <span class="tag">cli</span> <span class="tag">package manager</span></div>
+                <p>Un comando para instalar, configurar y actualizar todas las herramientas de charly-vibes. El repo queda limpio: todo vive bajo <code>.ddl/</code>.</p>
+            </li>
         </ul>
         <h3 class="group-title">La palabra</h3>
-        <p class="group-desc">Lo que se escribe mientras se construye: la bitácora, el método, la receta y el ritual. Si el código es efímero, esto intenta quedarse.</p>
+        <p class="group-desc">Lo que se escribe mientras se construye: la bit&aacute;cora, el m&eacute;todo, la receta y el ritual. Si el c&oacute;digo es ef&iacute;mero, esto intenta quedarse.</p>
         <ul class="projects">
             <li class="project-card">
                 <h3><a href="https://charly-vibes.github.io/microdancing/">microdancing</a> <a class="repo-link" href="https://github.com/charly-vibes/microdancing">repo</a></h3>
@@ -258,7 +283,7 @@
             </li>
         </ul>
         <h3 class="group-title">El laboratorio</h3>
-        <p class="group-desc">Experimentos sin plan maestro. Fuegos de un día, prototipos y juguetes que quizás algún día encuentren su lugar. O no, y también está bien.</p>
+        <p class="group-desc">Experimentos sin plan maestro. Fuegos de un d&iacute;a, prototipos y juguetes que quiz&aacute;s alg&uacute;n d&iacute;a encuentren su lugar. O no, y tambi&eacute;n est&aacute; bien.</p>
         <h4 class="subgroup-title">Aplicaciones web</h4>
         <ul class="projects">
             <li class="project-card">
@@ -324,6 +349,11 @@
                 <h3><a href="https://github.com/charly-vibes/ruta">ruta</a> <a class="repo-link" href="https://github.com/charly-vibes/ruta">repo</a></h3>
                 <div class="meta"><span class="tag">pi</span> <span class="tag">package</span> <span class="tag">spec immersion</span></div>
                 <p>Un paquete para pi que lo vuelve un arn&eacute;s opinado para una semana de inmersi&oacute;n en especificaciones. Disciplina para no perderse en el entusiasmo de la m&aacute;quina.</p>
+            </li>
+            <li class="project-card">
+                <h3><a href="https://github.com/charly-vibes/paseos">paseos</a> <a class="repo-link" href="https://github.com/charly-vibes/paseos">repo</a></h3>
+                <div class="meta"><span class="tag">placeholder</span> <span class="tag">gestaci&oacute;n</span></div>
+                <p>Repo en gestaci&oacute;n: todav&iacute;a sin forma definida, solo la declaraci&oacute;n de autor&iacute;a y una intenci&oacute;n que no se sabe qu&eacute; va a ser cuando crezca.</p>
             </li>
         </ul>
         <h3 class="group-title">Distribución</h3>

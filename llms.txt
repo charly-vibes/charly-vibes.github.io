@@ -8,7 +8,7 @@ Charly Vibes explores what software development looks like when the machine writ
 
 ### The ecosystem
 
-The CLIs that hold everything together: capture context, verify behavior, select tests, analyze code. Almost all Rust, plus a goldsmith in Go.
+The CLIs and shared infrastructure that hold everything together: capture context, verify behavior, select tests, analyze code. Almost all Rust, plus a goldsmith in Go.
 
 - [wai](https://charly-vibes.github.io/wai/): Gestor de flujos de trabajo para desarrollo asistido por IA.
 - [fabbro](https://charly-vibes.github.io/fabbro/): Herramienta CLI para revisar y anotar código generado por LLMs. Local-first, sin servidores.
@@ -16,6 +16,11 @@ The CLIs that hold everything together: capture context, verify behavior, select
 - [espectacular](https://github.com/charly-vibes/espectacular): Capa de verificación de comportamiento para el ecosistema de desarrollo IA de charly.
 - [testaruda](https://github.com/charly-vibes/testaruda): Motor de selección de tests con semiring de procedencia. Dado un cambio de código, computa los tests afectados.
 - [pretender](https://github.com/charly-vibes/pretender): Análisis de código basado en tree-sitter que genera reportes SARIF.
+- [vampiro](https://github.com/charly-vibes/vampiro): Rust CLI that checks whether code composes correctly across call, module, effect, law, retry, resource, and trust boundaries.
+- [crua](https://github.com/charly-vibes/crua): Rust CLI, in specification stage, that checks whether code respects the raw hardware and runtime cost model it executes on — cache-line layout, type stability, concurrency models, lock/STM contention.
+- [livin](https://github.com/charly-vibes/livin): Rust CLI, in specification stage, that checks whether a test suite actually exercises the boundary values a code's own shape implies: zero, empty, singleton, duplicate, overflow, every arm of a sum type.
+- [genesis](https://charly-vibes.github.io/genesis/): Shared Rust crate of cross-cutting CLI/AIX/self-healing infrastructure for the charly-vibes tool suite — the common foundation the puzzle needed.
+- [dulce-de-leche](https://github.com/charly-vibes/dulce-de-leche): One command to install, configure, and update every charly-vibes tool. Repo root stays clean — everything lives under `.ddl/`.
 
 ### The word
 
@@ -54,6 +59,7 @@ Experiments without a master plan: web, mobile, and desktop apps, plus a few loo
 - [bichos](https://github.com/charly-vibes/bichos): Biomimetic framework for autonomous QA — swarms of specialized agents coordinated by stigmergy.
 - [khipu](https://github.com/charly-vibes/khipu): Agent trace forensics and workflow crystallization.
 - [ruta](https://github.com/charly-vibes/ruta): pi package for a disciplined seven-day spec-immersion workflow.
+- [paseos](https://github.com/charly-vibes/paseos): A repo in gestation: no defined shape yet, just the authorship notice and an intention nobody knows how it will grow.
 
 ### Distribution
 

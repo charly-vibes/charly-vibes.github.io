@@ -8,7 +8,7 @@ Charly Vibes explores what software development looks like when the machine writ
 
 ### The ecosystem
 
-The CLIs and shared infrastructure that hold everything together: capture context, verify behavior, select tests, analyze code. Almost all Rust, plus a goldsmith in Go.
+The CLIs and shared infrastructure that hold everything together: capture context, verify behavior, select tests, analyze code. Almost all Rust, plus a goldsmith in Go. Several are still in specification stage.
 
 - [wai](https://charly-vibes.github.io/wai/): Gestor de flujos de trabajo para desarrollo asistido por IA.
 - [fabbro](https://charly-vibes.github.io/fabbro/): Herramienta CLI para revisar y anotar código generado por LLMs. Local-first, sin servidores.
@@ -22,7 +22,7 @@ The CLIs and shared infrastructure that hold everything together: capture contex
 - [genesis](https://charly-vibes.github.io/genesis/): Shared Rust crate of cross-cutting CLI/AIX/self-healing infrastructure for the charly-vibes tool suite — the common foundation the puzzle needed.
 - [dulce-de-leche](https://github.com/charly-vibes/dulce-de-leche): One command to install, configure, and update every charly-vibes tool. Repo root stays clean — everything lives under `.ddl/`.
 
-### The word
+### The writing
 
 What gets written while building: the logbook, the method, the recipe, and the ritual.
 
@@ -63,7 +63,7 @@ Experiments without a master plan: web, mobile, and desktop apps, plus a few loo
 
 ### Distribution
 
-Package repositories for installing the tools: the Homebrew tap and the Scoop bucket.
+Package repositories for installing the tools: the Homebrew tap and the Scoop bucket. The dulce-de-leche CLI (ddl) automates what these repos expose.
 
 - [homebrew-charly](https://github.com/charly-vibes/homebrew-charly): Tap de Homebrew para las herramientas de charly-vibes.
 - [scoop-charly](https://github.com/charly-vibes/scoop-charly): Bucket de Scoop para las herramientas de charly-vibes.

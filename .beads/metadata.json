@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "charly_vibes_github_io",
+  "project_id": "f546a86a-3775-43f6-9c46-6c703cd79dc2"
+}
